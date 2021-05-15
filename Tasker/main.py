@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-URL_LINK="URL_LINK_HERE"
+URL_LINK="<URL_LINK_HERE>"
 
 body = requests.get(URL_LINK)
 
